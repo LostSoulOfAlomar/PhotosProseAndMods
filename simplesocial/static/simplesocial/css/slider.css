@@ -1,0 +1,41 @@
+.slider-inner {
+        /* width: 194px;
+        height: 300px; */
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin-right:25px;
+    }
+    
+.slider-inner img {
+        display: none;
+    
+    
+    }
+    
+.slider-inner img.active {
+        display: inline-block;
+    
+    }
+    
+.prev,.next{
+            float: left;
+            margin-top: 160px;
+            cursor: pointer;
+            background-color: black;
+        
+        }
+        
+.prev {
+            position: relative;
+            margin-left:50px;
+            z-index: 100;
+            color: rgb(255, 255, 255);
+        
+        }
+.next {
+            position: relative;
+            margin-left: -25px;
+            z-index: 100;
+            color: white;
+        }

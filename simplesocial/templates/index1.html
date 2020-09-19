@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="container boxy2">
+    <p style="color:black;font-size: 110%; text-align:center;"><strong>Photography, Prose and Mods</strong></p>
+        <p style="text-align: center"><em>"Erie" my first book is now underway.</em></p>
+        <p>"And because the story has been told so often, it has taken root in every man’s mind. And, as
+            with all retold tales that are in people’s hearts, there are only good and bad things and black and
+            white
+            things and good and evil things and no in-between anywhere."
+            - Steinbeck "The Pearl"
+        <p style="text-align: center" ><br>Without deviation from the norm, progress is not possible. - Frank Zappa</p>
+        </p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <div class="boxy">
+         <a href="{% url 'Photos:photoshome' %}"><p>Photography</p>  
+        <img src="{% static "simplesocial/images/p1220409.jpg" %}" alt="no image "style="width:256px;height:194px; margin-top:20px"></a> 
+        </div></div>
+
+        <div class="col-md-4 text-center"><div class = "boxy6">Stories</div></div>  
+       
+        <div class="col-md-4 text-center"> <div class="boxy1">Minecraft Mods</div></div>
+
+    </div>
+</div>
+
+<div class="container boxy5">
+<p class="text-center" style="font-size:15px"> Copyright 2020 SeviLi Industries </p>
+</div>
+{% endblock %}

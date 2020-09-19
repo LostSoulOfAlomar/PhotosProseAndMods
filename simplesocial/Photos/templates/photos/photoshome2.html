@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="container text-center">
+    <h1>Joe Sevita</h1>
+    <h2>Photography</h2>
+</div>
+<div class="container myContainer">
+    
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <div class="boxy">
+                <p>Fashion</p>
+                <div class="PicHolder">
+                    <div class="slider-outer">
+                        <p class="prev">
+                           x  </p>
+                    </div>
+                    <div class="slider-inner">
+                        <img src="{% static "simplesocial/images/PA270105.jpg" %}" class="active" alt="no pic"
+                            style="width:194px;height:256px;">
+                        <img src="{% static "simplesocial/images//PC040174.jpg" %}" alt="no pic" style="width:194px;height:256px;">
+                        <img src="{% static "simplesocial/images//PB080422.jpg" %}" alt="no pic" style="width:194px;height:256px;">
+                    </div>
+
+                    <div class="slider-outer">
+                        <p class="next">
+                            x </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="boxy">
+                <p>Fashion</p>
+                <div class="PicHolder">
+                    <div class="slider-outer">
+                        <!-- <p class="prev">
+                           x </p> -->
+                    </div>
+                    <div class="slider-inner">
+                        <img src="{% static "simplesocial/images/PA270105.jpg" %}" class="active" alt="no pic"
+                            style="width:194px;height:256px;">
+                        <img src="{% static "simplesocial/images//PC040174.jpg" %}" alt="no pic" style="width:194px;height:256px;">
+                        <img src="{% static "simplesocial/images//PB080422.jpg" %}" alt="no pic" style="width:194px;height:256px;">
+                    </div>
+
+                    <div class="slider-outer">
+                        <!-- <p class="next">
+                            x</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="boxy">
+                <p>Fashion</p>
+                <div class="PicHolder">
+                    <div class="slider-outer">
+                        <p class="prev">
+                           x </p>
+                    </div>
+                    <div class="slider-inner">
+                        <img src="{% static "simplesocial/images/PA270105.jpg" %}" class="active" alt="no pic"
+                            style="width:194px;height:256px;">
+                        <img src="{% static "simplesocial/images//PC040174.jpg" %}" alt="no pic" style="width:194px;height:256px;">
+                        <img src="{% static "simplesocial/images//PB080422.jpg" %}" alt="no pic" style="width:194px;height:256px;">
+                    </div>
+
+                    <div class="slider-outer">
+                        <p class="next">
+                            x </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+<div class="container text-center" style="height:20px"> Copyright SevLi Industries 2020 </div>
+{% endblock %}

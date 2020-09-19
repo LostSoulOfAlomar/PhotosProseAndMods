@@ -1,0 +1,123 @@
+body {
+     margin: 0;
+     overflow: auto;
+     background-color: white;
+     color:black;
+   }
+
+.boxy{
+     background-color: #efefef;
+     height: 350px;
+     margin-right:10px;
+     margin-bottom:10px;
+ }
+ .boxy2{
+     background-color: #efefef;
+     height: 350px;
+     margin-left:3px;
+     margin-bottom:10px;
+ }
+ .boxy1{
+     background-color: #efefef;
+     height: 250px;
+     margin-right:10px;
+     margin-bottom:10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxy { 
+      background-color:  #efefef;
+      height: 350px;
+      color:black;
+      margin-left:-15px;
+  
+
+ }
+.boxy1 { 
+     background-color:  #efefef;
+     height:350px;
+     color:black;
+     margin-right:-15px;
+     margin-bottom: 10px;
+   
+}
+.boxy6 { 
+     background-color:  #efefef;
+     height:350px;
+     color:black;
+     margin-left:0px;
+     margin-bottom: 10px;
+     width:100%;
+
+}
+.boxy7 { 
+     background-color:  #efefef;
+     height: 275px;
+     color:black;
+     margin-left: -15px;
+    
+}
+
+.boxy8 { 
+     background-color:  #efefef;
+     height: 275px;
+     color:black;
+     margin-left: -15px;
+}
+
+
+.boxy2 { 
+      height: 250px; 
+      background-color: #efefef;
+      color:black;
+      margin-bottom: 10px;
+
+     }
+.boxy3 { 
+      background-color: #efefef;
+      margin-right: 10px;
+      color:black;
+      height: 350px; }
+.boxy4 { 
+      background-color: #efefef;
+      color:black;
+      height: 350px; }
+.boxy5 {
+ 
+       background-color: #efefef;
+       color:black;
+       margin-top: 10px;
+       height: 30px;
+   }
+.myContainer{
+     height:350px;
+}

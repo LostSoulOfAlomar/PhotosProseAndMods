@@ -1,0 +1,52 @@
+.PicHolder {
+
+    position: relative;
+    margin-left: 50px;}
+
+.slider-inner {
+        /* width: 194px;
+        height: 300px; */
+        position: relative;
+        overflow: hidden;
+        /*float: left;*/
+    }
+    
+.slider-inner img {
+        display: none;
+    
+    
+    }
+    
+.slider-inner img.active {
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+      /* width: 194px; */
+    
+    }
+    
+.prev,
+.next {
+        float: left;
+        margin-top: 130px;
+        cursor: pointer;
+        background-color: black;
+    
+    }
+    
+.prev {
+        position: relative;
+        margin-right: -45px;
+        z-index: 100;
+        color: white;
+    
+    }
+    
+.next {
+        position: relative;
+        margin-left: -10px;
+        z-index: 100;
+        color: white;
+    }
+    
+

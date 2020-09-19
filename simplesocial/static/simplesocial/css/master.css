@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    overflow: auto;
+    background-color: white;
+    color:black;
+  }
+
+.boxy{
+    background-color: #efefef;
+    height: 350px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.boxy2{
+    background-color: #efefef;
+    height: 350px;
+    margin-left:3px;
+    margin-bottom:10px;
+}
+.boxy1{
+    background-color: #efefef;
+    height: 250px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.img-por-center{
+width:194px;
+height:256px;
+margin-top:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

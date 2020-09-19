@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container text-center">
+    <p style="font-family:Arial, Helvetica, sans-serif;font-size: 30px;">Joe Sevita</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 boxy1 text-center">
+            <p style="color:black;font-size: 100%; text-align:center;"><strong>Photos Prose and Mods</strong></p>
+            <p style="text-align: center"><em>"Erie" my first book is now underway.</em></p>
+            <p>"And because the story has been told so often, it has taken root in every man’s mind. And, as
+               with all retold tales that are in people’s hearts, there are only good and bad things and black and
+              white
+                things and good and evil things and no in-between anywhere."
+             - Steinbeck "The Pearl"
+             <p style="text-align: center" ><br>Without deviation from the norm, progress is not possible. - Frank Zappa</p>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-sm boxy text-center">
+        <a href="{% url 'Photos:photoshome' %}"><p>Photography</p>  
+        <img src="{% static "simplesocial/images/p1220409.jpg" %}" alt="no image "style="width:256px;height:194px; margin-top:20px">
+      </a> 
+      </div>
+      <div class="col-sm boxy text-center">
+        <a href="#"><p>Prose and Verse</p>
+      </div>
+      <div class="col-sm boxy2 text-center">
+        <a href="#"><p>Mods</p>
+      </div>
+    </div>
+</div>
+{% endblock %}
